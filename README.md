@@ -61,6 +61,14 @@ src/
 
       supabaseClient.js  \<-- Main backend connection instance
 
+src/ components/
+
+      \<-- Main calculation interface & SVG dynamic template
+
+      SolarDesigner.jsx      
+
+      AuthBar.jsx     
+
 src/ context/     
 
        ProjectContext.jsx    \<-- use LocalStorage or Database
@@ -70,11 +78,3 @@ src/ services/
       \<-- Houses your database data synchronizer operations
 
        solarService.js        
-
-src/ components/
-
-      \<-- Main calculation interface & SVG dynamic template
-
-      SolarDesigner.jsx      
-
-      AuthBar.jsx         
